@@ -8,7 +8,7 @@ Dicee é uma aplicação mobile construída durante o curso **The Complete iOS A
 Vamos fazer um aplicativo de dados de Las Vegas. Você pode fazer rolar os dados pressionando um botão ou agitando seu telefone.
 
 ## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+<img src="https://github.com/ahcaio/Dicee/blob/main/Dicee/assets/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-07-15%20at%2010.36.33.png" width="250px" />. <img src="https://github.com/ahcaio/Dicee/blob/main/Dicee/assets/Simulator%20Screen%20Shot%20-%20iPhone%2013%20-%202022-07-15%20at%2010.36.42.png" width="250px" />
 
 # Tecnologias utilizadas
 - Swift 5
