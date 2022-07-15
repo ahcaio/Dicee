@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         //Exibir o dado sorteado
         diceImageView1.image = dados[Int.random(in: 0..<dados.count)]
         diceImageView2.image = dados[Int.random(in: 0..<dados.count)]
-
+    }
+    
+    // função que detecta quando o celular é "agitado" e rola os dados
+    override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            diceImageView1.image = dados[Int.random(in: 0..<dados.count)]
+            diceImageView2.image = dados[Int.random(in: 0..<dados.count)]
+        }
     }
 }
